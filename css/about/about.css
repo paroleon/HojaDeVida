@@ -1,0 +1,49 @@
+@media screen and (min-width:0px) {
+    .about{
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .about__container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .about__title{
+        display: flex;
+    }
+
+    .about__paragraph{
+        display: flex;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    .about{
+        
+    }
+
+    .about__container{
+        display: flex;        
+    }
+
+    .about__title{
+
+    }
+
+    .about__paragraph{
+        align-self: flex-start;
+        width: 70%;
+    }
+    
+}
+
+

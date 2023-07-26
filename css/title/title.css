@@ -1,0 +1,92 @@
+/*paginas mas grandes que cero pixeles*/
+@media screen and (min-width:0px) {
+    .title{
+        display: flex;
+        padding: 16px;
+    } 
+    .title__div{}
+        .title__profile{
+            width: 98px}
+        .title__container{}
+            .title__bio{
+                align-self: stretch;
+                    
+                color: var(--preto-100, #464646);
+                font-family: Raleway;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .title__subsection{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+                align-self: stretch;
+            
+                color: var(--preto-100, #464646);
+                font-family: Raleway;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal; 
+            }                
+                .title__network{
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 8px;
+                }
+                .title__network__item{                    
+                    align-items: center;
+                }
+}
+
+/*paginas mas grandes que 1440px*/
+@media screen and (min-width:992px) {
+    .title{
+        margin: 16px;
+        height: 368px;
+    } 
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-between;
+        width: 100%;        
+    }
+        .title__profile{            
+            display: flex;
+            width: 368px;
+            align-self: stretch;
+        }
+        .title__container{
+            display: flex;
+            flex-direction: column;
+            justify-content: left
+        }
+            .title__bio{               
+                font-family: Raleway;
+                font-size: 52px;
+                font-weight: 700;
+                line-height: 61px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            .title__subsection{
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+                
+            .title__network{
+                display: flex;
+                flex-direction: row;
+                padding-left: 0;
+                }
+                .title__network__item{
+                    display: flex;
+                    align-self: flex-end;
+                }
+}

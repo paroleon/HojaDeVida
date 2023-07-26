@@ -1,0 +1,40 @@
+@media screen and (min-width: 0px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+           
+    }
+    .skills__title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills__line{
+        display: flex;
+        padding: 16px;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+        
+    .skills__box{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .skills{        
+    }
+    .skills__title{        
+    }
+    .skills__line{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+    .skills__box{        
+        width:auto;
+    }
+}
+

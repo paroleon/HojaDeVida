@@ -1,0 +1,11 @@
+
+@media screen and (min-width:0px) {
+    .menu__list__item__contato {
+        
+    }            
+}
+@media screen and (min-width:992px) {
+    .menu__list__item__contato {
+        display: none;
+    }            
+}

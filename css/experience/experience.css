@@ -1,0 +1,98 @@
+@media screen and (min-width:0px) {
+    .experience{
+        display: flex;
+        flex-direction: column;   
+        align-items: stretch;
+        margin: 16px;   
+    }
+    .experience__section__title{
+        align-self: center;
+    }
+    
+        .experience__box{
+            display: flex;
+            flex-direction: column;  
+        }
+            .experience__img{
+                width: 100%;
+            }
+            .experience__info{}
+            .experience__title{}
+            .experience__text{}
+                    .experience__description{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: start;
+                        gap: 10px;   
+                        margin-bottom: 32px;                     
+                    }
+                            .experience__repo{}
+                            .experiencia__botao--repo{
+                                width: Hug (108px);
+                                height: Hug (40px);
+                                padding: 12px 16px 12px 16px;
+                                border: 1px;
+                                gap: 10px;
+
+                                background: #FFFFFF;
+
+                                border: 1px solid #2A7AE4;
+
+                                font-family: Raleway;
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 16px;
+                                letter-spacing: 0em;
+                                text-align: left;
+
+                                color: #2A7AE4;
+                            }
+                            .experience__demo{}
+                            .experience__botao--demo{
+                                width: Hug (108px);
+                                height: Hug (40px);
+                                padding: 12px 16px 12px 16px;
+                                border: 1px;
+                                gap: 10px;
+
+                                background: #2A7AE4;
+
+                                border: 1px solid #2A7AE4;
+
+                                font-family: Raleway;
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 16px;
+                                letter-spacing: 0em;
+                                text-align: left;
+
+                                color: #FFFFFF;
+
+
+
+
+
+                            }
+}
+
+@media screen and (min-width:768px) {
+    .experience{
+        
+    }
+    .experience__section__title{}
+    
+        .experience__box{}
+            .experience__img{}
+            .experience__info{}
+            .experience__title{}
+            .experience__text{}
+                    .experience__description{}
+                            .experience__repo{}
+                            .experiencia__botao--repo{}
+                            .experience__demo{}
+                            .experience__botao--demo{}
+
+
+
+
+}

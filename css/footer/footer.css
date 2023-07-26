@@ -1,0 +1,17 @@
+@media screen and (min-width: 0px) {
+    .footer{
+    }
+    .footer__rodape{
+        display: flex;
+        flex-direction: column;  /*Defines main axis*/
+        justify-content:normal;  /*Align main axis*/
+        align-items:center;      /*cross axix*/
+
+        /*wrap:
+        flex-wrap: ;
+        align-content: ;
+        gap: ;
+        padding: 32px;       
+        */
+    }
+}

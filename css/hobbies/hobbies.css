@@ -1,0 +1,41 @@
+@media screen and (min-width:0px) {
+    .hobbies{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hobbies__title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hobbies__line{
+        display: flex;
+        flex-flow: row wrap; 
+        
+        padding: 16px;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .hobbies__box{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hobbies{}
+
+    .hobbies__title{}
+
+    .hobbies__line{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hobbies__box{
+        width: auto;
+    }
+}
