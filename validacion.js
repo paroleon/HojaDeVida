@@ -39,4 +39,5 @@ arreglo.forEach(element => {
 
 botonEnviar.addEventListener("click", () => {    
     alert("Sus datos han sido enviados")
+    document.write("Sus datos han sido enviados")
 })
